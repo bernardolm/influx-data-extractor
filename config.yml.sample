@@ -1,0 +1,5 @@
+DEBUG: true
+INFLUX_API_URL: http://your_influx_server_over_TCP:8086
+INFLUX_DATABASE: my_database
+INFLUX_QUERY: SELECT * FROM "my_database"."autogen"."my_metrics" WHERE "foo" != 'bar'
+INFLUX_TIMEOUT: 59s

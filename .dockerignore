@@ -1,0 +1,11 @@
+.dlv
+.dockerignore
+.git
+.vscode
+*.csv
+config.yml
+config.yml.sample
+Dockerfile
+Makefile
+reports
+revive.toml

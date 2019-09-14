@@ -1,0 +1,8 @@
+bin/*
+
+!*/.keep
+.dlv
+.git
+.vscode
+*.csv
+config.yml

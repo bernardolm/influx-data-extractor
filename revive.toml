@@ -1,0 +1,55 @@
+# When set to false, ignores files with "GENERATED" header, similar to golint
+ignoreGeneratedHeader = false
+
+# Sets the default severity to "warning"
+severity = "warning"
+
+# Sets the default failure confidence. This means that linting errors
+# with less than 0.8 confidence will be ignored.
+confidence = 0.8
+
+# Sets the error code for failures with severity "error"
+errorCode = 0
+
+# Sets the error code for failures with severity "warning"
+warningCode = 0
+
+# Configuration of the `cyclomatic` rule. Here we specify that
+# the rule should fail if it detects code with higher complexity than 10.
+[rule.cyclomatic]
+  arguments = [10]
+
+# Sets the severity of the `package-comments` rule to "error".
+[rule.package-comments]
+  severity = "error"
+
+[rule.line-length-limit]
+  arguments = [119]
+
+[rule.atomic]
+[rule.blank-imports]
+[rule.context-as-argument]
+[rule.context-keys-type]
+[rule.dot-imports]
+[rule.empty-block]
+[rule.empty-lines]
+[rule.error-naming]
+[rule.error-return]
+[rule.error-strings]
+[rule.errorf]
+# [rule.exported]
+[rule.if-return]
+[rule.increment-decrement]
+[rule.indent-error-flow]
+[rule.range-val-in-closure]
+[rule.range]
+[rule.receiver-naming]
+[rule.redefines-builtin-id]
+[rule.superfluous-else]
+[rule.time-naming]
+[rule.unexported-return]
+[rule.unreachable-code]
+[rule.unused-parameter]
+[rule.var-declaration]
+[rule.var-naming]
+[rule.waitgroup-by-value]
